@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="brand"><img src="spotify.png" alt="Spotify">Spotify</div>
+       <ul> 
+        <li>Home</li>
+        <li>About</li>
+       </ul>
+    </nav>
+    <div class="container">
+        <h4>Best of NCS-No Copyright Sounds</h4>
+        <div class="songlist">
+            <!-- <div class="songItemContainer">
+                <div class="songItem" value="/1.mp3">
+                    <img src="/Arijit Singh.webp" alt="1">
+                    <span class="songName">Chaleya</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="0"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/2.mp3">
+                    <img src="/Arijit Singh.webp"  alt="1">
+                    <span class="songName">Tere Hawale</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="1" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/3.mp3">
+                    <img src="/Arijit Singh.webp" alt="1">
+                    <span class="songName">O Saki Saki</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/4.mp3">
+                    <img src="/Arijit Singh.webp"  alt="1">
+                    <span class="songName">Gali Gali</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="3"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/1.mp3">
+                    <img src="/Arijit Singh.webp"  alt="1">
+                    <span class="songName">Chaleya</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="4"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/2.mp3">
+                    <img src="/Arijit Singh.webp"  alt="1">
+                    <span class="songName">Chaleya</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="5"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem" name="/3.mp3">
+                    <img src="/Arijit Singh.webp" alt="1">
+                    <span class="songName">Chaleya</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6"class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div> -->
+
+            <div id="AudioCon">
+                <button class="Audios" name="Chaleya" value="/1.mp3"><img src="/Arijit Singh.webp"><b>Chaleya</b><p>3:08</p> <i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="Tere Hawale" value="/2.mp3"><img src="/Arijit Singh.webp"><b>Tere Hawale</b><p>5:46</p> <i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="O Saki Saki" value="/3.mp3"><img src="/Arijit Singh.webp"><b>O Saki Saki</b><p>3:11</p><i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="Gali Gali" value="/4.mp3"><img src="/Arijit Singh.webp"><b>Gali Gali</b><p>2:54</p><i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="Gali Gali" value="/4.mp3"><img src="/Arijit Singh.webp"><b>Gali Gali</b><p>2:54</p><i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="Gali Gali" value="/4.mp3"><img src="/Arijit Singh.webp"><b>Gali Gali</b><p>2:54</p><i class="fa-solid fa-play"></i></button>
+                <button class="Audios" name="Gali Gali" value="/4.mp3"><img src="/Arijit Singh.webp"><b>Gali Gali</b><p>2:54</p><i class="fa-solid fa-play"></i></button>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <!-- <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+           <img src="music.gif" width="42px" alt="" id="gif"> Chaleya-Shilpa rao
+        </div>
+    </div> -->
+    <div id="AudioDisplayer" style="display: none;">
+            <span id="Music_name">Name</span>
+            <audio src="/" id="Player" autoplay controls></audio>
+            <!-- <span id="Player"></span> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
